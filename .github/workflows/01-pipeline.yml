@@ -2,7 +2,7 @@
 # Nombre del workflow (aparecerá en la GUI)
 name: hello-world
 # Cuándo se ejecuta: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
-on: push
+on: [push, pull_request]
 # Listado de jobs
 jobs:
   # ID del job. Cada job se ejecuta en una máquina nueva
